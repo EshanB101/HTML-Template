@@ -13,7 +13,7 @@ function sendEmail() {
   var data = dataRange.getValues();
   for (var i = 0; i < data.length; ++i) {
     var row = data[i];
-    var emailAddress = 'eshan.basnet@selise.ch'; 
+    var emailAddress = 'myemail@email.com'; // Replace with your test email
     var message = 'dummy data';      
     var subject = 'This is the subject'; // Replace with your subject line
     var htmlBody = `<p>Replace this with your HTML template</p>`;

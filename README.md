@@ -16,7 +16,7 @@ function sendEmail() {
     var emailAddress = 'eshan.basnet@selise.ch'; 
     var message = 'dummy data';      
     var subject = 'This is the subject'; // Replace with your subject line
-    var htmlBody = '<p>Replace this with your HTML template</p>'; // Replace with your HTML template
+    var htmlBody = `<p>Replace this with your HTML template</p>`;
     MailApp.sendEmail(emailAddress, subject, message, {htmlBody:htmlBody});
   }
 }
